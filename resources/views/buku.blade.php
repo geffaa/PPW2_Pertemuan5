@@ -1,4 +1,4 @@
-<table class="table table-striped">
+<table border="1 px" class="table table-striped">
     <thead>
         <th>id</th>
         <th>Judul Buku</th>
@@ -19,3 +19,5 @@
         @endforeach
     </tbody>
 </table>
+<h3> <p>Jumlah data = {{ $jumlahData }}</p></h3>
+<h3> <p>Total harga = {{ "Rp ".$totalHarga . ",00" }}</p></h3>
