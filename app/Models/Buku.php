@@ -10,6 +10,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Buku extends Model
 {
     use HasFactory;
-
+    
     protected $table = "buku";
+    
 }
